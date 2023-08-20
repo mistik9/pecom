@@ -8,7 +8,7 @@ function Menu() {
             <div className="menu__container">
                 <ul className="menu__list">
                     <li className="menu__list-item">
-                    <NavLink to="/placement" className={({isActive}) => `menu__link  ${isActive ? "menu__link_active" : ""}`}>Настройки</NavLink> 
+                    <NavLink to="/settings" className={({isActive}) => `menu__link  ${isActive ? "menu__link_active" : ""}`}>Настройки</NavLink> 
                     </li>
                     <li className="menu__list-item">
                         <NavLink to="/about" className={({isActive}) => `menu__link  ${isActive ? "menu__link_active" : ""}`}>О приложении</NavLink>

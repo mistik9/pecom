@@ -7,14 +7,14 @@ import Help from "./Help";
 import Settings from "./Settings";
 
 
-function App({ member_id }) {
+function App({ }) {
 ;
 
 
   return (
     <div className="app">
       <Routes>
-        <Route path="/placement" element={<Settings  />} />
+        <Route path="/settings" element={<Settings  />} />
         <Route path="/help" element={<Help />} />
         <Route path="/about" element={<About />} />
       </Routes>

@@ -11,7 +11,7 @@ import { BrowserRouter } from "react-router-dom";
   root.render(
     <React.StrictMode>
       <BrowserRouter>
-        <App member_id={1} />
+        <App  />
       </BrowserRouter>
     </React.StrictMode>
   );
